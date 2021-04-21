@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height:100vh;
-    background-color: #000;
+    background-color: rgb(10, 10, 10);
     overflow: hidden;
 }
 .container{
@@ -39,13 +39,13 @@ body {
     position: relative;
     width: 200px;
     height:200px;
-    background: #03e9f4;
-    box-shadow: 0 0 5px rgba(3,233,244,1),
-    0 0 25px rgba(3,233,244,1),
-    0 0 50px rgba(3,233,244,1),
-    0 0 100px rgba(3,233,244,1),
-    0 0 200px rgba(3,233,244,0.5),
-    0 0 300px rgba(3,233,244,0.5);
+    background: rgb(97, 12, 12);
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+    0 0 25px rgb(97, 12, 12),
+    0 0 50px rgb(97, 12, 12),
+    0 0 100px rgb(97, 12, 12),
+    0 0 200px rgba(90, 10, 10, 0.5),
+    0 0 300px rgba(90,10,10,0.5);
     transform-origin: bottom right;
     animation: animate 1.5s ease-in-out infinite;
 }
